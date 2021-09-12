@@ -1,0 +1,28 @@
+[
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$UWL4kUPeLuUqeDcJm5ZfLe$7t0T68svW+gfOeTXmRBgmM8Saowv0N/YOglvw609ozc=",
+        "last_login": "2021-09-12T19:40:32.263Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "admin@admin.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-09-12T19:40:09.490Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "boards.board",
+    "pk": 1,
+    "fields": {
+        "name": "Django",
+        "description": "It is wonderful framework"
+    }
+}
+]
