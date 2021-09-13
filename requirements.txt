@@ -2,6 +2,7 @@ asgiref==3.4.1
 backcall==0.2.0
 decorator==5.1.0
 Django==3.2.7
+django-widget-tweaks==1.4.8
 ipython==7.27.0
 jedi==0.18.0
 matplotlib-inline==0.1.3
