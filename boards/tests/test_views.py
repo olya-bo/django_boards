@@ -2,9 +2,9 @@ from django.contrib.auth.models import User
 from django.test import TestCase
 from django.urls import reverse, resolve
 
-from boards.froms import NewTopicForm
-from boards.models import Board, Topic, Post
-from boards.views import home, board_topics, new_topic
+from ..froms import NewTopicForm
+from ..models import Board, Topic, Post
+from ..views import home, board_topics, new_topic
 
 
 class HomeTests(TestCase):
